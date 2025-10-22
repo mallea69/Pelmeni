@@ -1,0 +1,603 @@
+body{
+    justify-self: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: url(../img/background1.png);;
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+header{
+    border-style: solid;
+    border-width: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+header a{
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+header a:hover {
+    color: rgb(70, 74, 94);
+    text-decoration: underline;
+    transition: 0.7s;
+}
+.activ {
+    color: rgb(70, 74, 94);
+    text-decoration: underline;
+}
+.logo{
+    margin-left: 10px;
+    font-size: 64px;
+}
+.buttons{
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 954px;
+    height: 77px;
+    font-size: 36px;
+}
+
+main {
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+}
+.main_p {
+    font-size: 70px;
+}
+.card {
+    justify-content: center;
+    display: flex;
+    background-color: #F4F4F4;
+    width: 1470px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90px;
+    gap: 100px;
+    margin-top: 70px;
+}
+.right_h1 {
+    font-size: 78px;
+    font-style: italic;
+}
+.right_p {
+    font-size: 48px;
+}
+.right {
+    text-align: left;
+    width: 1400px;
+}
+@media (max-width:2020px){
+    body{
+        width: 1900px;
+    }
+    header{
+        width: 1900px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+
+}
+@media (max-width:1920px){
+    body{
+        width: 1800px;
+    }
+    header{
+        width: 1800px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+}
+@media (max-width:1820px){
+    body{
+        width: 1700px;
+    }
+    header{
+        width: 1700px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+}
+@media (max-width:1720px){
+    body{
+        width: 1600px;
+    }
+    header{
+        width: 1600px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .card {
+    width: 1270px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90px;
+    gap: 100px;
+    margin-top: 50px;
+    }
+    .main_p{
+        font-size: 60px;
+    }
+    .right{
+        width: 1200px;
+    }
+    .right_h1{
+        font-size: 60px;
+    }
+    .right_p{
+        font-size: 40px;
+    }
+}
+@media (max-width:1620px){
+    body{
+        width: 1500px;
+    }
+    header{
+        width: 1500px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+}
+@media (max-width:1520px){
+    body{
+        width: 1400px;
+    }
+    header{
+        width: 1400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .card {
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    gap: 100px;
+    margin-top: 30px;
+    }
+    .main_p{
+        font-size: 50px;
+    }
+    .right{
+        width: 900px;
+    }
+    .right_h1{
+        font-size: 50px;
+    }
+    .right_p{
+        font-size: 30px;
+    }
+    .pho{
+        height: 500px;
+        width: 500px;
+    }
+}
+@media (max-width:1420px){
+    body{
+        width: 1300px;
+    }
+    header{
+        width: 1300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+}
+@media (max-width:1320px){
+    body{
+        width: 1200px;
+    }
+    header{
+        width: 1200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+    .main_p{
+        font-size: 40px;
+    }
+    .right{
+        width: 500px;
+    }
+    .right_h1{
+        font-size: 40px;
+    }
+    .right_p{
+        font-size: 20px;
+    }
+    .pho{
+        height: 400px;
+        width: 400px;
+    }
+    .card {
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    gap: 100px;
+    margin-top: 30px;
+    }
+}
+@media (max-width:1220px){
+    body{
+        width: 1100px;
+    }
+    header{
+        width: 1100px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+}
+@media (max-width:1120px){
+    body{
+        width: 1000px;
+    }
+    header{
+        width: 1000px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+}
+@media (max-width:1020px){
+    body{
+        width: 900px;
+    }
+    header{
+        width: 900px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+}
+@media (max-width:920px){
+    body{
+        width: 800px;
+    }
+    header{
+        width: 800px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 20px;
+    }
+}
+@media (max-width:820px){
+    body{
+        width: 700px;
+    }
+    header{
+        width: 700px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 20px;
+    }
+}
+@media (max-width:720px){
+    body{
+        width: 600px;
+    }
+    header{
+        width: 600px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+    .buttons{
+        width: 554px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .main_p{
+        font-size: 20px;
+    }
+    .right{
+        width: 500px;
+    }
+    .right_h1{
+        font-size: 20px;
+    }
+    .right_p{
+        font-size: 15px;
+    }
+    .pho{
+        height: 200px;
+        width: 200px;
+    }
+    .card {
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    gap: 100px;
+    margin-top: 30px;
+    }
+}
+@media (max-width:620px){
+    body{
+        width: 500px;
+    }
+    header{
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+    .buttons{
+        width: 454px;
+        height: 77px;
+        font-size: 20px;
+    }
+}
+@media (max-width:520px){
+    body{
+        width: 400px;
+    }
+    header{
+        width: 400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .buttons{
+        display: flex;
+        padding-bottom: 10px;
+        flex-flow: column;
+        width: 354px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .main_p{
+        font-size: 20px;
+    }
+    .right{
+        width: 200px;
+    }
+    .right_h1{
+        font-size: 20px;
+    }
+    .right_p{
+        font-size: 15px;
+    }
+    .pho{
+        height: 100px;
+        width: 100px;
+    }
+    .card {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    gap: 50px;
+    margin-top: 30px;
+    }
+}
+@media (max-width:420px){
+    body{
+        width: 300px;
+    }
+    header{
+        width: 300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 254px;
+        height: 77px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .card {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    gap: 0px;
+    margin-top: 10px;
+    }
+}
+@media (max-width:320px){
+    body{
+        width: 200px;
+    }
+    header{
+        width: 200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 154px;
+        height: 77px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .main_p{
+        font-size: 15px;
+    }
+    .right{
+        width: 100px;
+    }
+    .right_h1{
+        font-size: 15px;
+    }
+    .right_p{
+        font-size: 10px;
+    }
+    .pho{
+        height: 100px;
+        width: 100px;
+    }
+    .card {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    gap: 0px;
+    margin-top: 10px;
+    }
+}
+@media (max-width:220px){
+    body{
+        width: 100px;
+    }
+    header{
+        width: 100px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 154px;
+        height: 77px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:120px){
+    body{
+        width: 75px;
+    }
+    header{
+        width: 75px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .lili{
+        font-size: 20px;
+    }
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 60px;
+        height: 77px;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+}

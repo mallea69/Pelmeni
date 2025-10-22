@@ -1,0 +1,977 @@
+body{
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(../img/background1.png);;
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+header{
+    border-style: solid;
+    border-width: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+header a{
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+header a:hover {
+    color: rgb(70, 74, 94);
+    text-decoration: underline;
+    transition: 0.7s;
+}
+.activ {
+    color: rgb(70, 74, 94);
+    text-decoration: underline;
+}
+.logo{
+    margin-left: 10px;
+    font-size: 64px;
+}
+.buttons{
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 954px;
+    height: 77px;
+    font-size: 36px;
+}
+.m1{
+    width: 1920px;
+    height: 2429px;
+    background-color: #ffffff;
+}
+.level1{
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    width: 1613px;
+    height: 900px;
+}
+.level1 h1{
+    font-size: 64px;
+    text-align: center;
+    width: 1543px;
+    height: 134px;
+}
+.level1 h2{
+    width: 1613px;
+    height: 696px;
+    font-size: 48px;
+}
+.level2 {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    width: 1714px;
+    height: 1220px;
+    background-color: #F4F4F4;
+}
+.level2 h1{
+    padding-top: 62px;
+    padding-left: 112px;
+    font-size: 64px;
+    width: 391px;
+    height: 77px;
+}
+.tabup{
+    display: flex;
+}
+.tab1{
+    margin-top: 80px;
+    margin-left: 85px;
+    width: 657px;
+    height: 280px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tab1 a{
+    color:#7B2525 ;
+    font-size:64px;
+    font-weight: bold;
+}
+.tab1 b{
+    font-size: 48px;
+}
+.tab1 c{
+    font-size: 40px;
+}
+.tabdw{
+    margin-top: 211px;
+    display: flex;
+}
+
+.level3{
+    width: 1920px;
+    height: 1363px;
+    background-color: #F4F4F4;
+}
+.level3 h1{
+    font-size: 64px;
+    display: flex;
+    justify-self: center;
+    margin-top: 80px;
+}
+.map{
+    width: 1482px;
+    height: 782px;
+    border-radius: 60px;
+    background-color: #ffffff;
+    margin-left: 224px;
+}
+
+.map h2{
+    font-size: 36px;
+    font-weight: 100;
+    margin-top: 34px;
+    margin-left: 42px;
+}
+
+.mapbut{
+    margin-top: 620px;
+    width: 1192px;
+    height: 100px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50;
+    font-size: 64px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+}
+.level3 h3{
+    font-size: 64px;
+    display: flex;
+    justify-self: center;
+}
+.levbut{
+    margin-top: 48px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 887px;
+    height: 100px;
+    font-size: 64px;
+    background-color: #ffffff;
+    border-radius: 60px;
+}
+.level4{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 1920px;
+    height: 2527px;
+    background-color: #D9D9D9;
+}
+.level4 h1{
+    font-size: 64px;
+    margin-top: 107px;
+}
+
+.pep1{
+    display: flex;
+    justify-content: space-around;
+    width: 1692px;
+    height: 344px;
+    border-style: solid;
+    border-top-width:0 ;
+    border-left-width:0 ;
+    border-right-width:0 ;
+    margin-top: 58px;
+}
+.pep1 .who{
+    background-color: #ffffff;
+    width: 245px;
+    height: 300px;
+}
+.pep1 a{
+    font-size: 64px;
+}
+.pep1 b{
+    font-size: 48px;
+}
+@media (max-width:1920px){
+    body{
+        width: 1800px;
+    }
+    header{
+        width: 1800px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
+    .m1{
+    width: 1420px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    }
+    .level1{
+    padding-top: 110px;
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+    justify-content: center;
+    width: 1613px;
+    height: 900px;
+    padding-bottom: 120px;
+    padding-left: 30px;
+}
+    .level1 h1{
+    font-size: 55px;
+    text-align: center;
+    width: 1500px;
+    height: auto;
+}
+    .level1 h2{
+    width: 800px;
+    height: auto;
+    font-size: 40px;
+    
+}
+
+.level2 {
+    display: flex;
+    align-self: center;
+    flex-flow: column;
+    width: 1300px;
+    height: auto;
+    background-color: #F4F4F4;
+}
+.level2 h1{
+    padding-top: 31px;
+    padding-left: 50px;
+    font-size: 64px;
+    width: auto;
+    height: auto;
+}
+.tabup{
+    display: flex;
+    flex-flow: column;
+}
+.tabdw{
+    display: flex;
+    flex-flow: column;
+}
+.level3{
+    margin-top: 20px;
+    width: 1420px;
+    height: auto;
+}
+.level3 h1{
+    font-size: 64px;
+    display: flex;
+    justify-self: center;
+    margin-top: 80px;
+}
+.map{
+    width: 1282px;
+    height: auto;
+    border-radius: 60px;
+    margin-left: 100px;
+}
+
+.map h2{
+    font-size: 36px;
+    font-weight: 100;
+    margin-top: 34px;
+    margin-left: 42px;
+}
+
+.mapbut{
+    margin-top: 620px;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50;
+    font-size: 64px;
+    border-radius: 30px;
+}
+.level4{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 1420px;
+    height: auto;
+}
+.level4 h1{
+    font-size: 64px;
+    display: flex;
+    justify-self: center;
+}
+.pep1{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 344px;
+    border-style: solid;
+    border-top-width:0 ;
+    border-left-width:0 ;
+    border-right-width:0 ;
+    margin-top: 58px;
+}
+.pep1 .who{
+
+    width: 245px;
+    height: 300px;
+}
+.pep1 a{
+    font-size: 64px;
+}
+.pep1 b{
+    font-size: 48px;
+}
+
+}
+@media (max-width:1820px){
+    body{
+        width: 1700px;
+    }
+    header{
+        width: 1700px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+}
+@media (max-width:1720px){
+    body{
+        width: 1600px;
+    }
+    header{
+        width: 1600px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+}
+@media (max-width:1620px){
+    body{
+        width: 1500px;
+    }
+    header{
+        width: 1500px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+}
+@media (max-width:1520px){
+    body{
+        width: 1400px;
+    }
+    header{
+        width: 1400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+}
+@media (max-width:1420px){
+    body{
+        width: 1300px;
+    }
+    header{
+        width: 1300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
+    .m1{
+    width: 620px;
+        height: auto;
+        display: flex
+;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+    }
+    .level1{
+    padding-top: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    padding-bottom: 100px;
+}
+    .level1 h1{
+    font-size: 30px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+    .level1 h2{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    
+}
+
+.level2 {
+    width: 500px;
+    height: auto;
+    background-color: #F4F4F4;
+}
+.level2 h1{
+    padding-top: 15px;
+    padding-left: 25px;
+    font-size: 30px;
+}
+.tab1{
+    margin-top: 20px;
+    margin-left: 23px;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tab1 a{
+    font-size:30px;
+    font-weight: bold;
+}
+.tab1 b{
+    font-size: 24px;
+}
+.tab1 c{
+    font-size: 20px;
+}
+.tabup{
+    display: flex;
+    flex-flow: column;
+}
+.tabdw{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+}
+.level3{
+    margin-top: 10px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-self: center;
+    flex-flow: column;
+}
+.level3 h1{
+    font-size: 30px;
+    display: flex;
+    justify-self: center;
+    margin-top: 40px;
+}
+.map{
+    width: 300px;
+    height: auto;
+    border-radius: 60px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.map h2{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 16px;
+    margin-left: 21px;
+}
+
+.mapbut{
+    margin-top: 320px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50;
+    font-size: 30px;
+    border-radius: 30px;
+}
+.level3 h3{
+    font-size: 30px;
+    display: flex;
+    justify-self: center;
+}
+.levbut{
+    margin-top: 24px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 60px;
+}
+.level4{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 500px;
+    height: auto;
+}
+.level4 h1{
+    font-size: 30px;
+    display: flex;
+    justify-self: center;
+}
+.pep1{
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    height: 150px;
+    border-style: solid;
+    border-top-width:0 ;
+    border-left-width:0 ;
+    border-right-width:0 ;
+    margin-top: 31px;
+}
+.pep1 .who{
+    width: 125px;
+    height: 150px;
+}
+.pep1 a{
+    font-size: 30px;
+}
+.pep1 b{
+    font-size: 20px;
+}
+}
+@media (max-width:1320px){
+    body{
+        width: 1200px;
+    }
+    header{
+        width: 1200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+}
+@media (max-width:1220px){
+    body{
+        width: 1100px;
+    }
+    header{
+        width: 1100px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+}
+@media (max-width:1120px){
+    body{
+        width: 1000px;
+    }
+    header{
+        width: 1000px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+}
+@media (max-width:1020px){
+    body{
+        width: 900px;
+    }
+    header{
+        width: 900px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+}
+@media (max-width:920px){
+    body{
+        width: 800px;
+    }
+    header{
+        width: 800px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 20px;
+    }
+}
+@media (max-width:820px){
+    body{
+        width: 700px;
+    }
+    header{
+        width: 700px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 20px;
+    }
+}
+@media (max-width:720px){
+    body{
+        width: 600px;
+    }
+    header{
+        width: 600px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+    .buttons{
+        width: 554px;
+        height: 77px;
+        font-size: 20px;
+    }
+}
+@media (max-width:620px){
+    body{
+        width: 500px;
+    }
+    header{
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+    .buttons{
+        width: 454px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .m1{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    }
+    .level1{
+    padding-top: 3px;
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+    justify-content: center;
+    width: 250px;
+    height: auto;
+    padding-bottom: 100px;
+}
+    .level1 h1{
+    font-size: 23px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+    .level1 h2{
+    width: auto;
+    height: auto;
+    font-size: 17px;
+}
+
+.level2 {
+    width: 300px;
+    height: auto;
+    background-color: #F4F4F4;
+}
+.level2 h1{
+    padding-top: 7px;
+    padding-left: 12px;
+    font-size: 23px;
+}
+.tab1{
+    margin-top: 20px;
+    margin-left: 23px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tab1 a{
+    font-size:23px;
+    font-weight: bold;
+}
+.tab1 b{
+    font-size: 20px;
+}
+.tab1 c{
+    font-size: 17px;
+}
+.tabup{
+    display: flex;
+    flex-flow: column;
+}
+.tabdw{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+}
+.level3{
+    margin-top: 5px;
+        width: 300px;
+        height: auto;
+        display: flex;
+        align-self: center;
+        flex-flow: column;
+        align-items: center;
+}
+.level3 h1{
+    font-size: 23px;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+}
+.map{
+    width: 150px;
+    height: 300px;
+    border-radius: 60px;
+    display: flex;
+    justify-self: center ;
+    padding-top: 60px;
+    margin: 0px;
+}
+
+.map h2{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.mapbut{
+    margin-top: 130px;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50;
+    font-size: 23px;
+    border-radius: 30px;
+}
+.level3 h3{
+    font-size: 23px;
+    display: flex;
+    justify-self: center;
+}
+.levbut{
+    margin-top: 12px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    font-size: 23px;
+    border-radius: 60px;
+}
+.level4{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 300px;
+    height: auto;
+}
+.level4 h1{
+    font-size: 23px;
+    display: flex;
+    justify-self: center;
+}
+.pep1{
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    height: 150px;
+    border-style: solid;
+    border-top-width:0 ;
+    border-left-width:0 ;
+    border-right-width:0 ;
+    margin-top: 16px;
+}
+.pep1 .who{
+    width: 50px;
+    height: 60px;
+}
+.pep1 a{
+    font-size: 23px;
+}
+.pep1 b{
+    font-size: 17px;
+}
+}
+@media (max-width:520px){
+    body{
+        width: 400px;
+    }
+    header{
+        width: 400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .buttons{
+        width: 354px;
+        height: 77px;
+        font-size: 20px;
+        display: flex;
+        flex-flow: column;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width:420px){
+    body{
+        width: 300px;
+    }
+    header{
+        width: 300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 254px;
+        height: 77px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:320px){
+    body{
+        width: 200px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    header{
+        width: 200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 154px;
+        height: 77px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}

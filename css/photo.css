@@ -1,0 +1,587 @@
+body{
+    justify-self: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: url(../img/background1.png);;
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+header{
+    border-style: solid;
+    border-width: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+header a{
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+header a:hover {
+    color: rgb(70, 74, 94);
+    text-decoration: underline;
+    transition: 0.7s;
+}
+.activ {
+    color: rgb(70, 74, 94);
+    text-decoration: underline;
+}
+.logo{
+    margin-left: 10px;
+    font-size: 64px;
+}
+.buttons{
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 954px;
+    height: 77px;
+    font-size: 36px;
+}
+.main_p{
+    font-size: 60px;
+}
+.pho1{
+    width: 800px;
+    height: 800px;
+}
+
+@media (max-width:2620px){
+    body{
+        width: 2500px;
+    }
+    header{
+        width: 2500px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+
+}
+
+
+@media (max-width:2520px){
+    body{
+        width: 2400px;
+    }
+    header{
+        width: 2400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+
+}    
+@media (max-width:2420px){
+    body{
+        width: 2300px;
+    }
+    header{
+        width: 2300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+
+
+}    
+
+@media (max-width:2320px){
+    body{
+        width: 2200px;
+    }
+    header{
+        width: 2200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+
+}    
+@media (max-width:2220px){
+    body{
+        width: 2100px;
+    }
+    header{
+        width: 2100px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+
+}    
+@media (max-width:2120px){
+    body{
+        width: 2000px;
+    }
+    header{
+        width: 2000px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+
+}    
+@media (max-width:2020px){
+    body{
+        width: 1900px;
+    }
+    header{
+        width: 1900px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+
+} 
+
+@media (max-width:1920px){
+    body{
+        width: 1800px;
+    }
+    header{
+        width: 1800px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .main_p{
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+    }
+     .viva {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1820px){
+    body{
+        width: 1700px;
+    }
+    header{
+        width: 1700px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+       .viva {
+        width: 30%;
+    }
+
+}
+@media (max-width:1720px){
+    body{
+        width: 1600px;
+    }
+    header{
+        width: 1600px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+      .viva {
+        width: 30%;
+    }
+
+}
+@media (max-width:1620px){
+    body{
+        width: 1500px;
+    }
+    header{
+        width: 1500px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+     .viva {
+        width: 30%;
+    }
+
+}
+@media (max-width:1520px){
+    body{
+        width: 1400px;
+    }
+    header{
+        width: 1400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }   
+     .viva {
+        width: 30%;
+    }
+}
+
+@media (max-width:1420px){
+    body{
+        width: 1300px;
+    }
+    header{
+        width: 1300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+
+}
+@media (max-width:1320px){
+    body{
+        width: 1200px;
+    }
+    header{
+        width: 1200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+     .viva {
+        width: 45%;
+        margin: 2.5%;
+    }
+}
+@media (max-width:1220px){
+    body{
+        width: 1100px;
+    }
+    header{
+        width: 1100px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+       .viva {
+        width: 45%;
+    }
+
+}
+@media (max-width:1120px){
+    body{
+        width: 1000px;
+    }
+    header{
+        width: 1000px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+       .viva {
+        width: 45%;
+    }
+
+}
+@media (max-width:1020px){
+    body{
+        width: 900px;
+    }
+    header{
+        width: 900px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+      .viva {
+        width: 45%;
+    }
+}
+@media (max-width:920px){
+    body{
+        width: 800px;
+    }
+    header{
+        width: 800px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+       .viva {
+        width: 45%;
+    }
+
+}
+@media (max-width:820px){
+    body{
+        width: 700px;
+    }
+    header{
+        width: 700px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 20px;
+}    
+    .pho1{
+        width:700px;
+        height: 700px;
+    }
+}
+
+
+@media (max-width:720px){
+    body{
+        width: 600px;
+    }
+    header{
+        width: 600px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+     .buttons{
+        width: 554px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+      .viva {
+        width: 80%;
+        margin: 5% 10%;
+    }
+    .pho1{
+        width:600px;
+        height: 600px;
+    }
+}
+@media (max-width:620px){
+    body{
+        width: 500px;
+    }
+    header{
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+    .buttons{
+        width: 454px;
+        height: 77px;
+        font-size: 20px;
+    }
+       .viva {
+        width: 90%;
+        margin: 5%;
+    }
+    .pho1{
+        width:500px;
+        height: 500px;
+    }
+}
+@media (max-width:520px){
+    body{
+        width: 400px;
+    }
+    header{
+        width: 400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .buttons{
+        width: 354px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .viva {
+        width: 95%;
+        margin: 2.5%;
+    }
+    .main_p{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .pho1{
+        width:400px;
+        height: 400px;
+    }
+}
+@media (max-width:420px){
+    body{
+        width: 300px;
+    }
+    header{
+        width: 300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 254px;
+        height: 77px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+      .viva {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+    .pho1{
+        width:300px;
+        height: 300px;
+    }
+}
+@media (max-width:320px){
+    body{
+        width: 200px;
+    }
+    header{
+        width: 200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 154px;
+        height: 77px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+      .viva {
+        width: 100%;
+        margin: 0;
+    }
+    .pho1{
+        width:200px;
+        height: 200px;
+    }
+}

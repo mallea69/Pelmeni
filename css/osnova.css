@@ -1,0 +1,1085 @@
+body{
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(../img/background1.png);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+header a{
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+header a:hover {
+    color: rgb(70, 74, 94);
+    text-decoration: underline;
+    transition: 0.7s;
+}
+.activ {
+    color: rgb(70, 74, 94);
+    text-decoration: underline;
+}
+.logo{
+    margin-left: 10px;
+    font-size: 64px;
+}
+.buttons{
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 954px;
+    height: 77px;
+    font-size: 36px;
+}
+
+.hero{
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../img/Airbrush-Image-Enhancer-17592519964931.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.numbers{
+    color: aliceblue;
+    font-size: 36px;
+    display: flex;
+    justify-self: end;
+    margin-top: 10px;
+    margin-right: 47px;
+}
+.hero h1{
+    margin-left: 102px;
+    font-size: 64px;
+    color: aliceblue;
+    width: 1237px;
+    height: 385px;
+}
+main{
+    background-color: aliceblue;
+    width: 1920px;
+    border-style: solid;
+    border-width: 2px;
+}
+h1{
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.m1{
+    background-color: #FFFFFF;
+    height: 1100px;
+}
+.m1 h2{
+    margin-left: 120px;
+    font-size: 48px;
+    width: 1681px;
+}
+.b1{
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 500px;
+    height: 150px;
+    box-shadow: 14px 6px #FF0000 ;
+    border-top-left-radius:60px ;
+    border-bottom-right-radius:60px ;
+}
+.b2{
+    margin-right: 80px;
+    display: flex;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 500px;
+    height: 150px;
+    box-shadow: -14px 6px #4744FF ;
+    border-top-left-radius:60px ;
+    border-bottom-right-radius:60px ;
+}
+.m2 h2{
+    margin-left: 120px;
+    width: 957px;
+    height: 348px;
+    font-size: 48px;
+}
+.m2{
+    background-color: #FAFAFA;
+    height: 1001px;
+}
+.b3{
+    margin-right: 80px;
+    display: flex;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 500px;
+    height: 150px;
+    box-shadow: -14px 6px #42BC00 ;
+    border-top-left-radius:60px ;
+    border-bottom-right-radius:60px ;
+}
+.m3{
+    background-color: #F7F7F7;
+    height: 1000px;
+}
+.b4{
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 500px;
+    height: 150px;
+    box-shadow: 14px 6px #FFF200 ;
+    border-top-left-radius:60px ;
+    border-bottom-right-radius:60px ;
+}
+.b5{
+    margin-right: 80px;
+    display: flex;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 500px;
+    height: 150px;
+    box-shadow: -14px 6px #FFBD44 ;
+    border-top-left-radius:60px ;
+    border-bottom-right-radius:60px ;
+}
+.b6{
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 500px;
+    height: 150px;
+    box-shadow: 14px 6px #FF0000 ;
+    border-top-left-radius:60px ;
+    border-bottom-right-radius:60px ;
+}
+.b7{
+    margin-right: 80px;
+    display: flex;
+    justify-self: end;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 500px;
+    height: 150px;
+    box-shadow: -14px 6px #44FFD6 ;
+    border-top-left-radius:60px ;
+    border-bottom-right-radius:60px ;
+    margin-bottom: 60px;
+}
+.knopka {
+    color: black;
+    text-decoration: none;
+}
+.knopka:hover {
+    color: rgb(105, 105, 105);
+    text-decoration: underline;
+    transition: 0.7s;
+}
+footer{
+    background-color: #FFFFFF;
+    width: 1920px;
+    height: auto;
+    font-size: 64px;
+}
+
+@media (max-width:2620px){
+    body{
+        width: 2500px;
+    }
+    header{
+        width: 2500px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 2500px;
+    height: 1080px;
+    }
+    main{
+        width: 2497px;
+    }
+    footer{
+        width: 2500px;
+        height: auto;
+    }
+}
+
+
+@media (max-width:2520px){
+    body{
+        width: 2400px;
+    }
+    header{
+        width: 2400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 2400px;
+    height: 1080px;
+    }
+    main{
+        width: 2397px;
+    }
+    footer{
+        width: 2400px;
+    }
+}    
+@media (max-width:2420px){
+    body{
+        width: 2300px;
+    }
+    header{
+        width: 2300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 2300px;
+    height: 1080px;
+    }
+    main{
+        width: 2297px;
+    }
+    footer{
+        width: 2300px;
+    }
+
+}    
+
+@media (max-width:2320px){
+    body{
+        width: 2200px;
+    }
+    header{
+        width: 2200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 2200px;
+    height: 1080px;
+    }
+    main{
+        width: 2197px;
+    }
+    footer{
+        width: 2200px;
+    }
+}    
+@media (max-width:2220px){
+    body{
+        width: 2100px;
+    }
+    header{
+        width: 2100px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 2100px;
+    height: 1080px;
+    }
+    main{
+        width: 2097px;
+    }
+    footer{
+        width: 2100px;
+    }
+}    
+@media (max-width:2120px){
+    body{
+        width: 2000px;
+    }
+    header{
+        width: 2000px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 2000px;
+    height: 1080px;
+    }
+    main{
+        width: 1997px;
+    }
+    .m1,
+    .m2,
+    .m3{
+        height: auto;
+    }
+    footer{
+        width: 2000px;
+    }
+}    
+@media (max-width:2020px){
+    body{
+        width: 1900px;
+    }
+    header{
+        width: 1900px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 1900px;
+    height: auto;
+    }
+    main{
+        width: 1897px;
+    }
+    footer{
+        width: 1900px;
+    }
+}    
+@media (max-width:1920px){
+    body{
+        width: 1800px;
+    }
+    header{
+        width: 1800px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 1800px;
+    font-size: 48px;
+    }
+    main{
+        width: 1797px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .m1 h2{
+    font-size: 28px;
+    width: 1681px;
+    }
+    footer{
+        width: 1800px;
+    }
+}    
+@media (max-width:1820px){
+    body{
+        width: 1700px;
+    }
+    header{
+        width: 1700px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 1700px;
+    }
+    main{
+        width: 1697px;
+    }
+    footer{
+        width: 1700px;
+    }
+    .m1 h2{
+    font-size: 28px;
+    width: 1281px;
+    }    
+}
+@media (max-width:1720px){
+    body{
+        width: 1600px;
+    }
+    header{
+        width: 1600px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 1600px;
+    }
+    main{
+        width: 1597px;
+    }
+    footer{
+        width: 1600px;
+    }
+}    
+@media (max-width:1620px){
+    body{
+        width: 1500px;
+    }
+    header{
+        width: 1500px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 1500px;
+    }
+    main{
+        width: 1497px;
+    }
+    footer{
+        width: 1497px;
+    }
+}    
+@media (max-width:1520px){
+    body{
+        width: 1400px;
+    }
+    header{
+        width: 1400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 1400px;
+    }
+    main{
+        width: 1397px;
+    }
+    footer{
+        width: 1397px;
+        font-size: 48px;
+        padding-top: 25px;
+        padding-left: 33px;
+    }
+}    
+@media (max-width:1420px){
+    body{
+        width: 1300px;
+    }
+    header{
+        width: 1300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 64px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 36px;
+    }
+    .hero{
+    width: 1300px;
+    }
+    main{
+        width: 1297px;
+    }
+    footer{
+        width: 1297px;
+        padding-top: 15px;
+        padding-left: 15px;
+        font-size: 36px;
+    }
+    .m1 h2{
+    font-size: 28px;
+    width: 1081px;
+    }
+}
+
+@media (max-width:1320px){
+    body{
+        width: 1200px;
+    }
+    header{
+        width: 1200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+    .hero{
+    width: 1200px;
+    }
+    main{
+        width: 1197px;
+    }
+    footer{
+        width: 1197px;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 1081px;
+    }
+}
+@media (max-width:1220px){
+    body{
+        width: 1100px;
+    }
+    header{
+        width: 1100px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+    .hero{
+    width: 1100px;
+    }
+    .numbers{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 27px;
+}
+    .hero h1{
+    margin-left: 51px;
+    font-size: 48px;
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    }
+    main{
+        width: 1097px;
+    }
+    footer{
+        width: 1097px;
+        height: auto;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 900px;
+    }
+}
+@media (max-width:1120px){
+    body{
+        width: 1000px;
+    }
+    header{
+        width: 1000px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+    .hero{
+    width: 1000px;
+    }
+    main{
+        width: 997px;
+    }
+    footer{
+        width: 997px;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 800px;
+    }
+}
+@media (max-width:1020px){
+    body{
+        width: 900px;
+    }
+    header{
+        width: 900px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 26px;
+    }
+    .hero{
+    width: 900px;
+    }
+    main{
+        width: 897px;
+    }
+    footer{
+        width: 897px;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 700px;
+    }
+    .m2 h2{
+    margin-left: 60px;
+    width: auto;
+    height: auto;
+    font-size: 40px;
+}
+}
+@media (max-width:920px){
+    body{
+        width: 800px;
+    }
+    header{
+        width: 800px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .hero{
+    width: 800px;
+    }
+    main{
+        width: 797px;
+    }
+    footer{
+        width: 797px;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 600px;
+    }
+}
+@media (max-width:820px){
+    body{
+        width: 700px;
+    }
+    header{
+        width: 700px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+
+    .buttons{
+        width: 954px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .hero{
+    width: 700px;
+    }
+    .numbers{
+    font-size: 26px;
+    margin-top: 2px;
+    margin-right: 14px;
+}
+    .hero h1{
+    margin-left: 25px;
+    font-size: 40px;
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    }
+    main{
+        width: 697px;
+    }
+    footer{
+        width: 697px;
+        padding-top: 5px;
+        padding-left: 5px;
+        font-size: 30px;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 500px;
+    }
+}
+@media (max-width:720px){
+    body{
+        width: 600px;
+    }
+    header{
+        width: 600px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+    .buttons{
+        width: 554px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .hero{
+    width: 600px;
+    
+    }.numbers{
+    font-size: 20px;
+    margin-top: 2px;
+    margin-right: 14px;
+}
+    .hero h1{
+    margin-left: 25px;
+    font-size: 26px;
+    }
+    main{
+        width: 597px;
+    }
+    footer{
+        width: 597px;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 400px;
+    }
+    .b1,
+    .b2,
+    .b3,
+    .b4,
+    .b5,
+    .b6,
+    .b7{
+        width: 400px;
+        height: 100px;
+        font-size: 36px;
+        margin-left: 20px;
+    }
+}
+    
+
+@media (max-width:620px){
+    body{
+        width: 500px;
+    }
+    header{
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 36px;
+    }
+    .buttons{
+        width: 454px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .hero{
+    width: 500px;
+    height: 280px;
+    }
+    main{
+        width: 497px;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 300px;
+    }
+    .b1,
+    .b2,
+    .b3,
+    .b4,
+    .b5,
+    .b6,
+    .b7{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 10px;
+        display: flex;
+        justify-self:left;
+        flex-flow: column;
+    }
+    .m2 h2{
+    margin-left: 20px;
+    width: 400px;
+    height: auto;
+    font-size: 20px;
+}
+    h1{
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    footer{
+        width: 497px;
+        padding-top: 2px;
+        padding-left: 2px;
+        font-size: 20px;
+    }
+}
+@media (max-width:520px){
+    body{
+        width: 400px;
+    }
+    header{
+        width: 400px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .buttons{
+        padding-bottom: 10px;
+        display: flex;
+        flex-flow: column;
+        width: 354px;
+        height: 77px;
+        font-size: 20px;
+    }
+    .hero{
+    width: 400px;
+    height: 200px;
+    }
+    main{
+        width: 397px;
+    }
+    .numbers{
+    font-size: 14px;
+    margin-top: 2px;
+    margin-right: 14px;
+}
+    .hero h1{
+    margin-left: 15px;
+    font-size: 20px;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 200px;
+    }
+    .b1,
+    .b2,
+    .b3,
+    .b4,
+    .b5,
+    .b6,
+    .b7{
+        margin: 18px;
+    }
+    .m2 h2{
+    margin-left: 0px;
+    width: 200px;
+    height: auto;
+    font-size: 20px;
+}
+    footer{
+        width: 397px;
+    }
+}
+@media (max-width:420px){
+    body{
+        width: 300px;
+    }
+    header{
+        width: 300px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 254px;
+        height: 77px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .hero{
+    width: 300px;
+    height: 150px;
+    }
+    main{
+        width: 297px;
+    }
+    .numbers{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+    .hero h1{
+    margin-left: 0px;
+    font-size: 14px;
+    }
+    .m1 h2{
+    margin-left: 0px;
+    }
+    footer{
+        width: 297px;
+        padding-top: 2px;
+        padding-left: 2px;
+        font-size: 10px;
+    }
+}
+@media (max-width:320px){
+    body{
+        width: 200px;
+    }
+    header{
+        width: 200px;
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 26px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-flow: column;
+        width: 154px;
+        height: 77px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .hero{
+    width: 200px;
+    height: 100px;
+    }
+        .numbers{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+    .hero h1{
+    margin-left: 0px;
+    font-size: 12px;
+    }
+    main{
+        width: 197px;
+    }
+    .m1 h2{
+    font-size: 20px;
+    width: 100px;
+    }
+    .b1,
+    .b2,
+    .b3,
+    .b4,
+    .b5,
+    .b6,
+    .b7{
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-self:left;
+        flex-flow: column;
+    }
+    footer{
+        width: 197px;
+    }
+}
